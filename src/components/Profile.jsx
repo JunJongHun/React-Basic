@@ -1,17 +1,17 @@
 import React from "react";
 
-const Profile = () => {
+function Profile(props) {
   return (
-    <div className="profile">
+    <div className="container">
       <img
-        className="photo"
-        src="https://images.unsplash.com/photo-1491013516836-7db643ee125a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1450&q=80"
-        alt="baby"
+        className="img"
+        src="https://t4.ftcdn.net/jpg/02/59/68/53/240_F_259685304_GU2G9fZ4qWXiWgJbcOrlagnJmTBVQ32X.jpg"
+        alt="babyyeonji"
       />
-      <h2 className="title">Jonghun</h2>
-      <h3 className="job">Front-End</h3>
+      <h1 className="name">{props.user.name}</h1>
+      <span className="live">{props.user.live}</span>
     </div>
   );
-};
+}
 
 export default Profile;

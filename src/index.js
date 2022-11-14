@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import AppProfile from "./AppProfile";
+import CreateFile from "./components/CreateFile";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
