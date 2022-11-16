@@ -4,13 +4,14 @@ import AppCounter from "./AppCounter";
 import AppProfile from "./AppProfile";
 import Card from "./components/Card";
 import CreateFile from "./components/CreateFile";
+import Pointer from "./components/Pointer";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Card></Card>
+    <Pointer></Pointer>
   </React.StrictMode>
 );
 
