@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import AppCounter from "./AppCounter";
 import AppProfile from "./AppProfile";
+import Card from "./components/Card";
 import CreateFile from "./components/CreateFile";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
@@ -9,7 +10,7 @@ import reportWebVitals from "./reportWebVitals";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <AppCounter></AppCounter>
+    <Card></Card>
   </React.StrictMode>
 );
 
