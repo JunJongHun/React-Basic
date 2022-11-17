@@ -7,7 +7,7 @@ function Card(props) {
   let [check, setCheck] = useState(false);
 
   useEffect(() => {
-    let d = fetch("https://jsonplaceholder.typicode.com/todos/1")
+    let d = fetch("http://localhost:3100/")
       .then((res) => res.json())
       .then((res) => {
         console.log(res);
@@ -17,8 +17,8 @@ function Card(props) {
 
   return (
     <div>
-      <div>{check && data.title}</div>
-      <div>aa</div>
+      <div>{check && data.id}</div>
+      <div>{data.pw}</div>
       <button
         onClick={() => {
           setCheck((pre) => !pre);

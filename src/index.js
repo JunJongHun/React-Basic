@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import AppCounter from "./AppCounter";
 import AppProfile from "./AppProfile";
+import AppMentor from "./components/AppMentor";
 import Card from "./components/Card";
 import CreateFile from "./components/CreateFile";
 import Pointer from "./components/Pointer";
@@ -11,7 +12,7 @@ import reportWebVitals from "./reportWebVitals";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Pointer></Pointer>
+    <AppMentor></AppMentor>
   </React.StrictMode>
 );
 
