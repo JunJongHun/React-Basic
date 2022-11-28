@@ -6,13 +6,11 @@ import AppForm from "./basic/AppForm";
 import AppWrap from "./basic/AppWrap";
 import reportWebVitals from "./reportWebVitals";
 import AppCard from "./basic/AppCard";
+import AppTheme from "./basic/AppTheme";
+import AppMentorsButton from "./basic/AppMontorsButton";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <React.StrictMode>
-    <AppCard></AppCard>
-  </React.StrictMode>
-);
+root.render(<AppMentorsButton></AppMentorsButton>);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
