@@ -8,7 +8,7 @@ function AppCard(props) {
       </Card>
       <Card>
         <h1 className=" text-lg  text-red-200">Card Two</h1>
-        <span className="  text-red-200">hi, there!</span>
+        <span className=" text-red-200">hi, there!</span>
       </Card>
     </div>
   );
